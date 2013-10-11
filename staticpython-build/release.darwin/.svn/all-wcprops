@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/283/trunk/staticpython/release.darwin
+END
+stackless3.2-static
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/283/trunk/staticpython/release.darwin/stackless3.2-static
+END
+stackless2.7-static
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/283/trunk/staticpython/release.darwin/stackless2.7-static
+END
+stacklessxl3.2-static
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/283/trunk/staticpython/release.darwin/stacklessxl3.2-static
+END
+python3.2-static
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/283/trunk/staticpython/release.darwin/python3.2-static
+END
+stacklessco2.7-static
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/283/trunk/staticpython/release.darwin/stacklessco2.7-static
+END
+python2.7-static
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/283/trunk/staticpython/release.darwin/python2.7-static
+END
