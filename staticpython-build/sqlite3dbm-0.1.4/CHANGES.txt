@@ -1,0 +1,26 @@
+### v0.1.4, 2011-08-17 -- Bugfix for get_many unicode issue
+* get_many() and select() no longer miss unicode keys
+
+### v0.1.3, 2011-02-07 -- Improve shelve update/clear performance
+* sshelve performance improvements
+  * update() is faster. Should be preferred over many individual inserts
+  * clear() is faster
+
+### v0.1.2, 2011-01-28 -- Bumb version number
+* Do a full minor bump for pypi
+
+### v0.1.1a, 2011-01-28 -- Fix MANIFEST
+* Fix the MANIFEST.in to include markdown files
+
+### v0.1.1, 2011-01-27 -- Final API fixes, Beefing up docs
+* Only support bytestring k/v in sqlite3dbm for consistency with dbm
+* Make __init__.py better so 'import sqlite3dbm' in the only import needed
+* Improve docs:
+  * Usage examples
+  * Make README markdown
+  * Better description on the root page
+* Version .gitignore
+
+### v0.1.0, 2011-01-24 -- Initial release
+* sqlite3-backed dictionary conforming to dbm interface
+* shelve subclass to provide serialization for the sqlite3 dbm

@@ -111,6 +111,7 @@ PYTHONPATH=$(COREPYTHONPATH)
 
 # This only contains the minimal set of modules required to run the 
 # setup.py script in the root of the Python source tree.
+gext gextmodule.c		# original libray we add
 
 posix posixmodule.c		# posix (UNIX) system calls
 errno errnomodule.c		# posix (UNIX) errno values

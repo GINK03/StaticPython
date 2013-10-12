@@ -25,6 +25,7 @@ extern "C" {
 
 extern void initthread(void);
 extern void initsignal(void);
+extern void initgext(void);
 extern void initposix(void);
 extern void initerrno(void);
 extern void initpwd(void);
@@ -105,6 +106,7 @@ struct _inittab _PyImport_Inittab[] = {
 
 	{"thread", initthread},
 	{"signal", initsignal},
+	{"gext", initgext},
 	{"posix", initposix},
 	{"errno", initerrno},
 	{"pwd", initpwd},
