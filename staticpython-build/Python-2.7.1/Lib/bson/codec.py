@@ -108,7 +108,9 @@ def decode_string(data, base):
 def encode_cstring(value):
 	if isinstance(value, unicode):
 		value = value.encode("utf8")
-	return value + "\x00"
+    # hacked gkobayas
+    # to use intkeys
+	return str(value) + "\x00"
 
 def decode_cstring(data, base):
 	length = 0

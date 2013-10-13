@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/350/trunk/staticpython
+END
+pycrypto-2.3.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/202/trunk/staticpython/pycrypto-2.3.tar.gz
+END
+calculate_path.2.7.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/249/trunk/staticpython/calculate_path.2.7.c
+END
+Python-3.2.tar.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/244/trunk/staticpython/Python-3.2.tar.bz2
+END
+stackless-271-export.tar.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/191/trunk/staticpython/stackless-271-export.tar.bz2
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/328/trunk/staticpython/build.sh
+END
+gcxtool.inst.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/191/trunk/staticpython/gcxtool.inst.tbz2
+END
+make
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/198/trunk/staticpython/make
+END
+gevent-0.13.6.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/239/trunk/staticpython/gevent-0.13.6.tar.gz
+END
+readline-5.2.inst.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/83/trunk/staticpython/readline-5.2.inst.tbz2
+END
+locale.darwin.3.2.patch
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/256/trunk/staticpython/locale.darwin.3.2.patch
+END
+zlib-1.2.5.tar.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/216/trunk/staticpython/zlib-1.2.5.tar.bz2
+END
+alo-aes-0.3.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/203/trunk/staticpython/alo-aes-0.3.tar.gz
+END
+msgpack_pyx.patch
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/303/trunk/staticpython/msgpack_pyx.patch
+END
+locale.darwin.2.7.patch
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/256/trunk/staticpython/locale.darwin.2.7.patch
+END
+download.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/83/trunk/staticpython/download.txt
+END
+Pyrex-0.9.9.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/196/trunk/staticpython/Pyrex-0.9.9.tar.gz
+END
+gcc.inst.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/191/trunk/staticpython/gcc.inst.tbz2
+END
+tokyocabinet-1.4.47.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/304/trunk/staticpython/tokyocabinet-1.4.47.tar.gz
+END
+advzip.inst.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/252/trunk/staticpython/advzip.inst.tbz2
+END
+readline-5.2.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/216/trunk/staticpython/readline-5.2.tar.gz
+END
+bzip2-1.0.6.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/216/trunk/staticpython/bzip2-1.0.6.tar.gz
+END
+busybox
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/198/trunk/staticpython/busybox
+END
+site.3.2.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/249/trunk/staticpython/site.3.2.py
+END
+tokyocabinet_hash_c.patch
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/310/trunk/staticpython/tokyocabinet_hash_c.patch
+END
+Modules.Setup.3.2.static
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/279/trunk/staticpython/Modules.Setup.3.2.static
+END
+sqlite-3.7.0.1.inst.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/83/trunk/staticpython/sqlite-3.7.0.1.inst.tbz2
+END
+pts-advzip-advancecomp-1.15.patch
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/253/trunk/staticpython/pts-advzip-advancecomp-1.15.patch
+END
+site.2.7.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/312/trunk/staticpython/site.2.7.py
+END
+Modules.Setup.2.7.static
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/304/trunk/staticpython/Modules.Setup.2.7.static
+END
+perl
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/198/trunk/staticpython/perl
+END
+greenlet-0.3.1-pycapsule.patch
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/244/trunk/staticpython/greenlet-0.3.1-pycapsule.patch
+END
+Python-2.7.1.tar.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/200/trunk/staticpython/Python-2.7.1.tar.bz2
+END
+greenlet-0.3.1.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/84/trunk/staticpython/greenlet-0.3.1.tar.gz
+END
+libevent-2.0.16-stable.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/308/trunk/staticpython/libevent-2.0.16-stable.tar.gz
+END
+concurrence-0.3.1.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/196/trunk/staticpython/concurrence-0.3.1.tar.gz
+END
+gcxbase.inst.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/191/trunk/staticpython/gcxbase.inst.tbz2
+END
+sqlite-amalgamation-3070603.zip
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/216/trunk/staticpython/sqlite-amalgamation-3070603.zip
+END
+msgpack-python-20111221.tar.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/303/trunk/staticpython/msgpack-python-20111221.tar.bz2
+END
+advzip.darwin.inst.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/254/trunk/staticpython/advzip.darwin.inst.tbz2
+END
+stackless-32-export.tar.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/244/trunk/staticpython/stackless-32-export.tar.bz2
+END
+bzip2-1.0.5.inst.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/83/trunk/staticpython/bzip2-1.0.5.inst.tbz2
+END
+geventmysql-20110201.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/197/trunk/staticpython/geventmysql-20110201.tbz2
+END
+python-tokyocabinet-20111221.tar.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/304/trunk/staticpython/python-tokyocabinet-20111221.tar.bz2
+END
+openssl-0.9.8r.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/243/trunk/staticpython/openssl-0.9.8r.tar.gz
+END
+ncurses-5.6.inst.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/83/trunk/staticpython/ncurses-5.6.inst.tbz2
+END
+missing.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/328/trunk/staticpython/missing.txt
+END
+syncless-0.25.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/313/trunk/staticpython/syncless-0.25.tar.gz
+END
+calculate_path.3.2.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/249/trunk/staticpython/calculate_path.3.2.c
+END
+zlib-1.2.3.3.inst.tbz2
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/83/trunk/staticpython/zlib-1.2.3.3.inst.tbz2
+END
+d.sh
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/231/trunk/staticpython/d.sh
+END
+encodings_idna_missing_unicodedata.3.2.patch
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/328/trunk/staticpython/encodings_idna_missing_unicodedata.3.2.patch
+END

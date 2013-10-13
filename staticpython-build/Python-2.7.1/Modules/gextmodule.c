@@ -1,5 +1,62 @@
 #include <Python.h>
 #include <string.h>
+
+
+/** msgpack like convert ouput */
+static PyObject*
+gext_msgcnv(PyObject* self, PyObject* args)
+{
+  char* s;
+  size_t size;
+  if(!PyArg_ParseTuple(args, "s#", &s, &size))
+    return Py_BuildValue("s", NULL);;
+  /** 改行をunichr(219)に変換 */
+  char C219 = 219;
+  // for c99
+  int i;
+  for(i = 0; i < size; i++){
+    //GCC only
+    if( *((char*)(s + i)) == '\n' )
+      *((char*)(s + i)) = C219;
+  }
+  //printf("%s\n", s);
+  return Py_BuildValue("s", s);
+}
+
+/** msgpack like convert input */
+static PyObject*
+gext_msgrcv(PyObject* self, PyObject* args)
+{
+  char* s;
+  size_t size;
+  if(!PyArg_ParseTuple(args, "s#", &s, &size))
+    return Py_BuildValue("s", NULL);;
+  /** unichr(219)を\nに変換 */
+  char C219 = 219;
+  // for c99
+  int i;
+  for(i = 0; i < size; i++){
+    //GCC only
+    if( *((char*)(s + i)) == C219 )
+      *((char*)(s + i)) = '\n';
+  }
+  //printf("%s\n", s);
+  return Py_BuildValue("s", s);
+}
+
+/** 改行をないままに出力する */
+static PyObject*
+gext_put(PyObject* self, PyObject* args)
+{
+  char* s;
+  size_t size;
+  if(!PyArg_ParseTuple(args, "s#", &s, &size))
+    return Py_BuildValue("s", NULL);;
+  /** ナマのまま出力 */
+  printf("%s", s);
+  return Py_BuildValue("s", NULL);
+}
+
 /**　二乗するだけのサンプル関数 */
 static PyObject*
 gext_info(PyObject* self, PyObject* args)
@@ -68,9 +125,12 @@ gext_firesplit(PyObject* self, PyObject* args)
 }
 
 static PyMethodDef methods[] = {
-  {"info", (PyCFunction)gext_info, METH_VARARGS, "return factorial.\n"},
-  {"kreg", (PyCFunction)gext_keyregister, METH_VARARGS, "return string object.\n"},
-  {"split", (PyCFunction)gext_firesplit, METH_VARARGS, "return list of string.\n"},
+  {"info",    (PyCFunction)gext_info,         METH_VARARGS, "return factorial.\n"},
+  {"put",     (PyCFunction)gext_put,          METH_VARARGS, "return None.\n"},
+  {"msgcnv",  (PyCFunction)gext_msgcnv,       METH_VARARGS, "return string object.\n"},
+  {"msgrcv",  (PyCFunction)gext_msgrcv,       METH_VARARGS, "return string object.\n"},
+  {"kreg",    (PyCFunction)gext_keyregister,  METH_VARARGS, "return string object.\n"},
+  {"split",   (PyCFunction)gext_firesplit,    METH_VARARGS, "return list of string.\n"},
   {NULL, NULL, 0, NULL}
 };
 

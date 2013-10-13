@@ -26,6 +26,9 @@ extern "C" {
 extern void initthread(void);
 extern void initsignal(void);
 extern void initgext(void);
+extern void initpyguess(void);
+extern void initguess(void);
+extern void initguess_tab(void);
 extern void initposix(void);
 extern void initerrno(void);
 extern void initpwd(void);
@@ -107,6 +110,9 @@ struct _inittab _PyImport_Inittab[] = {
 	{"thread", initthread},
 	{"signal", initsignal},
 	{"gext", initgext},
+	{"pyguess", initpyguess},
+	{"guess", initguess},
+	{"guess_tab", initguess_tab},
 	{"posix", initposix},
 	{"errno", initerrno},
 	{"pwd", initpwd},
