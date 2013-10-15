@@ -86,6 +86,7 @@ USE_SSL=
 USE_TC=
 TARGET=python2.7-static
 PYTHONTBZ2=Python-2.7.1.tar.bz2
+#PYTHONTBZ2=Python-2.7.5.tar.bz2
 IS_CO=
 IS_PY3=
 for ARG in "$@"; do 
@@ -114,6 +115,7 @@ for ARG in "$@"; do
   elif test "$ARG" = python || test "$ARG" = python2.7; then
     TARGET=python2.7-static
     PYTHONTBZ2=Python-2.7.1.tar.bz2
+    #PYTHONTBZ2=Python-2.7.5.tar.bz2
     IS_CO=
     IS_XX=
     IS_PY3=
