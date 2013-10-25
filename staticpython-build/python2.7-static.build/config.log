@@ -455,7 +455,7 @@ configure: failed program was:
 configure:5685: result: no
 configure:5698: checking whether pthreads are available without options
 configure:5722: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c  >&5
-/tmp/ccactrMH.o: In function `main':
+/tmp/cc40LVtR.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:33: undefined reference to `pthread_create'
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:35: undefined reference to `pthread_detach'
 configure:5722: $? = 1
@@ -503,7 +503,7 @@ configure:5738: result: no
 configure:5751: checking whether /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector accepts -Kpthread
 configure:5777: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -Kpthread -o conftest -g -O2   conftest.c  >&5
 i686-rawgcc: unrecognized option '-Kpthread'
-/tmp/ccalQAT2.o: In function `main':
+/tmp/ccObfXm3.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:33: undefined reference to `pthread_create'
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:35: undefined reference to `pthread_detach'
 configure:5777: $? = 1
@@ -551,7 +551,7 @@ configure:5789: result: no
 configure:5800: checking whether /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector accepts -Kthread
 configure:5826: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -Kthread -o conftest -g -O2   conftest.c  >&5
 i686-rawgcc: unrecognized option '-Kthread'
-/tmp/ccIZCLef.o: In function `main':
+/tmp/cce0J7De.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:33: undefined reference to `pthread_create'
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:35: undefined reference to `pthread_detach'
 configure:5826: $? = 1
@@ -598,7 +598,7 @@ configure: failed program was:
 configure:5838: result: no
 configure:5849: checking whether /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector accepts -pthread
 configure:5875: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -pthread -o conftest -g -O2   conftest.c  >&5
-/tmp/ccahFTnz.o: In function `main':
+/tmp/cc570qwk.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:33: undefined reference to `pthread_create'
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:35: undefined reference to `pthread_detach'
 configure:5875: $? = 1
@@ -5085,7 +5085,7 @@ configure: failed program was:
 configure:7895: result: no
 configure:7909: checking for library containing sem_init
 configure:7940: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -ldl  >&5
-/tmp/ccYNiSDg.o: In function `main':
+/tmp/ccQk2aOG.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:107: undefined reference to `sem_init'
 configure:7940: $? = 1
 configure: failed program was:
@@ -5320,7 +5320,7 @@ configure: failed program was:
 configure:8004: result: no
 configure:8051: checking for t_open in -lnsl
 configure:8076: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lnsl  -lpthread -ldl  >&5
-/tmp/ccwIVITd.o: In function `main':
+/tmp/cc2iuy7O.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:107: undefined reference to `t_open'
 configure:8076: $? = 1
 configure: failed program was:
@@ -6343,7 +6343,7 @@ configure:9504: $? = 0
 configure:9504: result: yes
 configure:9504: checking for bind_textdomain_codeset
 configure:9504: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread >&5
-/tmp/ccavtnoS.o: In function `main':
+/tmp/ccuTQAdh.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:141: undefined reference to `bind_textdomain_codeset'
 configure:9504: $? = 1
 configure: failed program was:
@@ -6552,7 +6552,7 @@ configure:9504: $? = 0
 configure:9504: result: yes
 configure:9504: checking for getloadavg
 configure:9504: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread >&5
-/tmp/ccslGabs.o: In function `main':
+/tmp/ccuBvgoh.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:155: undefined reference to `getloadavg'
 configure:9504: $? = 1
 configure: failed program was:
@@ -6757,7 +6757,7 @@ configure:9504: $? = 0
 configure:9504: result: yes
 configure:9504: checking for getwd
 configure:9504: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread >&5
-/tmp/ccqn9xd9.o: In function `main':
+/tmp/cc2WWqkt.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:165: undefined reference to `getwd'
 configure:9504: $? = 1
 configure: failed program was:
@@ -6944,7 +6944,7 @@ configure:9504: $? = 0
 configure:9504: result: yes
 configure:9504: checking for lchmod
 configure:9504: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread >&5
-/tmp/cc07dD5n.o: In function `main':
+/tmp/cco7qkTm.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:168: undefined reference to `lchmod'
 configure:9504: $? = 1
 configure: failed program was:
@@ -7158,7 +7158,7 @@ configure:9504: $? = 0
 configure:9504: result: yes
 configure:9504: checking for plock
 configure:9504: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread >&5
-/tmp/ccyiXsZh.o: In function `main':
+/tmp/ccYBEHsc.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:177: undefined reference to `plock'
 configure:9504: $? = 1
 configure: failed program was:
@@ -7349,7 +7349,7 @@ configure:9504: $? = 0
 configure:9504: result: yes
 configure:9504: checking for pthread_init
 configure:9504: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread >&5
-/tmp/cceiddTd.o: In function `main':
+/tmp/ccKiliUj.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:178: undefined reference to `pthread_init'
 configure:9504: $? = 1
 configure: failed program was:
@@ -7689,7 +7689,7 @@ configure:9504: $? = 0
 configure:9504: result: yes
 configure:9504: checking for tmpnam
 configure:9504: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread >&5
-/tmp/ccItiXVL.o: In function `main':
+/tmp/cc4HQK9f.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:220: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
 configure:9504: $? = 0
 configure:9504: result: yes
@@ -7711,7 +7711,7 @@ configure:9504: $? = 0
 configure:9504: result: yes
 configure:9504: checking for utimes
 configure:9504: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread >&5
-/tmp/ccCq6Y35.o: In function `main':
+/tmp/ccAaqA85.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:225: warning: the use of LEGACY `utimes' is discouraged, use `utime'
 configure:9504: $? = 0
 configure:9504: result: yes
@@ -7733,7 +7733,7 @@ configure:9504: $? = 0
 configure:9504: result: yes
 configure:9504: checking for _getpty
 configure:9504: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread >&5
-/tmp/ccOOjg8z.o: In function `main':
+/tmp/ccgtqsxd.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:230: undefined reference to `_getpty'
 configure:9504: $? = 1
 configure: failed program was:
@@ -8967,7 +8967,7 @@ configure:10273: $? = 0
 configure:10277: result: yes
 configure:10290: checking for openpty
 configure:10290: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread >&5
-/tmp/ccumIK8s.o: In function `main':
+/tmp/ccCgwZIR.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:244: undefined reference to `openpty'
 configure:10290: $? = 1
 configure: failed program was:
@@ -9234,7 +9234,7 @@ configure:10486: $? = 0
 configure:10486: result: yes
 configure:10500: checking for fseek64
 configure:10500: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread -lutil >&5
-/tmp/ccW1pVQB.o: In function `main':
+/tmp/ccwwP4hY.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:247: undefined reference to `fseek64'
 configure:10500: $? = 1
 configure: failed program was:
@@ -9499,7 +9499,7 @@ configure:10500: $? = 0
 configure:10500: result: yes
 configure:10500: checking for ftell64
 configure:10500: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread -lutil >&5
-/tmp/cchyjX6j.o: In function `main':
+/tmp/cc0L6F3o.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:249: undefined reference to `ftell64'
 configure:10500: $? = 1
 configure: failed program was:
@@ -12524,7 +12524,7 @@ configure:11523: $? = 0
 configure:11530: result: yes
 configure:11646: checking for __fpu_control
 configure:11646: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread -lutil >&5
-/tmp/cc02p2hl.o: In function `main':
+/tmp/ccObosMZ.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:276: undefined reference to `__fpu_control'
 configure:11646: $? = 1
 configure: failed program was:
@@ -13921,7 +13921,7 @@ configure:12062: result: yes
 configure:12062: checking for finite
 configure:12062: /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/cross-compiler-i686/bin/i686-gcc -static -fno-stack-protector -o conftest -g -O2   conftest.c -lpthread -ldl  -lpthread -lutil -lm >&5
 conftest.c:276: warning: conflicting types for built-in function 'finite'
-/tmp/ccEv6WNS.o: In function `main':
+/tmp/ccqIo3kJ.o: In function `main':
 /home/gkobayas/dev/StaticPython/staticpython-build/python2.7-static.build/conftest.c:287: undefined reference to `finite'
 configure:12062: $? = 1
 configure: failed program was:

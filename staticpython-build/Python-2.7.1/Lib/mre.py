@@ -31,6 +31,10 @@ def search( regex, line ):
   
   return __m
 
+"""Maybe Monad like method"""
+def maybe1( regex, line ):
+  return (lambda x: x.group(1) if x else None )( search( regex, line ) )
+
 def sub( regex, tgt, line ):
   if not __memre.mem.get( regex ):
     __memre.mem.setdefault( regex, re.compile(regex) )
@@ -53,3 +57,7 @@ if __name__ == '__main__':
 
   line = 'hagehagepandahageta'
   print sub('h.*?e', 'moge', line)
+
+  '''maybe1 test'''
+  line = 'utyumonosubetewatashi'
+  print maybe1('(sube.e)', line)
